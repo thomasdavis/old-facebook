@@ -1,0 +1,98 @@
+/*
+========================
+Top bar
+========================
+*/
+.header {
+  background: #3b5998;
+  height: 38px;
+  border-bottom: 1px solid #133783; 
+  display: inline-block; 
+  width: 100%;
+}
+.main-menu-container {
+  margin: auto; 
+  width: 960px;
+}
+.logo {
+  background: url(../img/logo.png); 
+  width: 107px; 
+  height: 27px; 
+  margin-top: 5px;
+}
+body {
+  font-family: Verdana;
+
+}
+
+/*
+  Layout
+*/  
+.page-container {
+  margin: auto;
+  width: 960px;
+}
+.sidebar-container {
+  width: 180px;
+  float: left;
+}
+.demo-container {
+  width: 750px;
+  float: left;
+}
+
+/*
+  Menu
+*/
+.menu {
+  list-style: none; 
+  padding: 0; 
+  margin: 0;
+}
+.menu-heading {
+  color: #999;
+  font-size: 9px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+.menu li a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #444;
+}
+.menu li a:hover {
+  text-decoration: underline;
+}
+.profile-box {
+  margin: 20px 0 20px 0;
+}
+.avatar {
+  background: url(../img/avatar.jpg); 
+  width: 40px; 
+  height: 40px;
+  background-size: 40px; 
+  float: left;
+}
+.name {
+  line-height: 40px;
+  height: 40px;
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/*
+  Demo
+*/
+.demo-info {
+   border-left: 1px solid #ccc;
+   padding-left: 30px;
+   padding-top: 50px;
+}
+
+.intro-text {
+  font-size: 11px;
+  color: #444;
+  margin-left: 50px;
+  margin-top: 100px;
+}
